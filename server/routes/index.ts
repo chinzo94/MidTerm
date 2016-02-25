@@ -3,12 +3,12 @@ var router = express.Router();
 
 /* GET Landing page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'My Favourite LooneyToons' });
+  res.render('index', { title: 'My Favourite LooneyTunes' });
 });
 
 /* GET People page. */
 router.get('/people', function(req, res, next) {
-  res.render('people', { title: 'People' });
+  res.render('people', { title: 'Meet The Toons' });
 });
 
 /* GET Contact page. */
