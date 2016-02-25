@@ -10,7 +10,7 @@ var CustomError = (function (_super) {
         _super.call(this, message);
     }
     return CustomError;
-})(Error);
+}(Error));
 var express = require('express');
 var path = require('path');
 //var favicon = require('serve-favicon');
@@ -60,5 +60,4 @@ app.use(function (err, req, res, next) {
     });
 });
 module.exports = app;
-
 //# sourceMappingURL=app.js.map

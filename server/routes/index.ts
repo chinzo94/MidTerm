@@ -1,27 +1,17 @@
 var express = require('express');
 var router = express.Router();
 
-/* GET home page. */
+/* GET Landing page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Home' });
+  res.render('index', { title: 'My Favourite LooneyToons' });
 });
 
-/* GET product page. */
-router.get('/products', function(req, res, next) {
-  res.render('index', { title: 'Products' });
+/* GET People page. */
+router.get('/people', function(req, res, next) {
+  res.render('people', { title: 'People' });
 });
 
-/* GET services page. */
-router.get('/services', function(req, res, next) {
-  res.render('index', { title: 'Services' });
-});
-
-/* GET about page. */
-router.get('/about', function(req, res, next) {
-  res.render('index', { title: 'About' });
-});
-
-/* GET contact page. */
+/* GET Contact page. */
 router.get('/contact', function(req, res, next) {
   res.render('contact', { title: 'Contact' });
 });

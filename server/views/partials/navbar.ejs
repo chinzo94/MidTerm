@@ -13,36 +13,18 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">    
       <ul class="nav navbar-nav navbar-right">
-        <% if(title === "Home") { %>  
+        <% if(title === "My Favourite LooneyToons") { %>  
             <li class="active"><a href="/">Home</a></li>
-            <li><a href="/products">Products</a></li>
-            <li><a href="/services">Services</a></li>
-            <li><a href="/about">About Us</a></li>
-            <li><a href="/contact">Contact Us</a></li>
-        <% } else if(title == "Products") { %>
+            <li><a href="/people">People</a></li>
+            <li><a href="/contact">Contact</a></li>
+        <% } else if(title == "People") { %>
             <li><a href="/">Home</a></li>
-            <li class="active"><a href="/products">Products</a></li>
-            <li><a href="/services">Services</a></li>
-            <li><a href="/about">About Us</a></li>
-            <li><a href="/contact">Contact Us</a></li>
-        <% } else if(title == "Services") { %>
-            <li><a href="/">Home</a></li>
-            <li><a href="/products">Products</a></li>
-            <li class="active"><a href="/services">Services</a></li>
-            <li><a href="/about">About Us</a></li>
-            <li><a href="/contact">Contact Us</a></li>
-        <% } else if(title == "About") { %>
-            <li><a href="/">Home</a></li>
-            <li><a href="/products">Products</a></li>
-            <li><a href="/services">Services</a></li>
-            <li class="active"><a href="/about">About Us</a></li>
-            <li><a href="/contact">Contact Us</a></li>
+            <li class="active"><a href="/people">People</a></li>
+            <li><a href="/contact">Contact</a></li>
          <% } else if(title == "Contact") { %>
             <li><a href="/">Home</a></li>
-            <li><a href="/products">Products</a></li>
-            <li><a href="/services">Services</a></li>
-            <li><a href="/about">About Us</a></li>
-            <li class="active"><a href="/contact">Contact Us</a></li>
+            <li><a href="/people">People</a></li>
+            <li class="active"><a href="/contact">Contact</a></li>
          <% } %>
       </ul>
     </div><!-- /.navbar-collapse -->
